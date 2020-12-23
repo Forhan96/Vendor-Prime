@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        />
+
+    <EditText
+        android:id="@+id/userNameETId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/up"
+        android:hint="Username"
+        android:drawableLeft="@drawable/person_ic"
+        android:fontFamily="@font/mosk_regular"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordETId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/up"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pass_ic"
+        android:fontFamily="@font/mosk_regular"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/signInBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_login"
+        android:fontFamily="@font/mosk_regular"
+        android:text="SIGN IN"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        />
+
+</LinearLayout>
